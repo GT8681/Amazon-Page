@@ -2,46 +2,52 @@
 
 header{
     background-color:#222f3f;
+    max-width: 100%;
     
   
 }
 body{
    display: inline-block;
+   max-width: 100%;
 }
-.sf1{
-     margin-top: 10%;
 
-}
+
 .content{
 
    display: inline-block;
-   margin: 0%;
+
+   background-color: white;
     
+}
+.sf1 img{
+   padding: 0;
+
 }
 main{
   
    display: inline-block;
-    padding: 2em;
-    margin: 0em;
+    padding: 1.5em;
+    margin: 0;
 }
  .logo img{
     padding:2em;
     
  }
 .menu span{
-   color: white;
-   background-color: #364759;
-    display: inline;
-    padding: 0.7em;
+     color: white;
+     background-color: #364759;
+     padding: 1em;
+     
     
    
 }
 .int{
-    
+    max-width: 100%;
+    max-height: 100%;
     text-align: center;
     background-color: orange;
-    margin: 1em;
-    padding: 0.6em 0;
+    margin: 2em;
+    padding: 0.7em 0;
    
 
 }
@@ -60,14 +66,11 @@ main{
       margin: 0.8rem;
     }
 
-
- 
- .imgfine img{
+.imgfine img{
     text-align: center;
-   
- }
+   }
 
- .play{
+.play{
     text-align: center;
  }
  .fine{
