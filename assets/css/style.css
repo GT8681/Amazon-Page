@@ -1,3 +1,5 @@
+
+
 header{
     background-color:#222f3f;
     
@@ -6,10 +8,15 @@ header{
 body{
    display: inline-block;
 }
+.sf1{
+     margin-top: 10%;
 
+}
 .content{
 
    display: inline-block;
+   margin: 0%;
+    
 }
 main{
   
@@ -22,6 +29,7 @@ main{
     
  }
 .menu span{
+   color: white;
    background-color: #364759;
     display: inline;
     padding: 0.7em;
@@ -40,15 +48,18 @@ main{
  .menu1{
    display: inline-block;
    background-color:#222f3f;
-
-   
-   
-   
  }
 
 .img1{
     display: inline-block;
+  
+    max-width: 100%;
 }
+    .img1 img{
+      border-radius: 30px;
+      margin: 0.8rem;
+    }
+
 
  
  .imgfine img{
